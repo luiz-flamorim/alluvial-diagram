@@ -2,10 +2,6 @@ import { Alluvial } from "./alluvial.js";
 import { exportSVG } from "./exportSvg.js";
 import { setupFileLoader } from "./fileLoader.js";
 
-// match label titles accordingly to the reevant headers
-// let source = "Label";
-// let target = "Service";
-
 let chart = null;
 let currentData = null;
 let container = document.querySelector("#chart");
