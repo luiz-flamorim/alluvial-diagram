@@ -16,7 +16,7 @@ setupFileLoader((data) => {
 });
 
 document.querySelector("#exportBtn").addEventListener("click", () => {
-  exportSVG("#chart", "alluvial.svg");
+  exportSVG("#chart", "thanks-luiz.svg");
 });
 
 window.addEventListener("resize", () => {
